@@ -24,7 +24,8 @@ http://your-domain.com/index.html?skin=username
    ```bash
    git clone https://github.com/kurojs/McView3D.git
    ```
-2. Open the project in vscode and run a local server like this```bash
+2. Open the project in vscode and run a local server like this
+   ```bash
    python -m http.server 8080
    ``` 
 2. Open the link of your server url.  

@@ -16,7 +16,7 @@ It uses [SkinView3D](https://github.com/bs-community/skinview3d) as a base and a
 ## Demo  
 Try the API directly in your browser:  
 ```
-http://your-domain.com/index.html?skin=username
+https://kurojs.github.io/McView3D/?skin=herobrine
 ```
 
 ## 📦 Installation  

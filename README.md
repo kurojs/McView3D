@@ -13,11 +13,17 @@ It uses [SkinView3D](https://github.com/bs-community/skinview3d) as a base and a
 - **Load skins via URL**  
 - **Lightweight and easy to implement**  
 
-## Demo  
+## Live Demo   
 Try the API directly in your browser:  
-```
-https://kurojs.github.io/McView3D/?skin=herobrine
-```
+[McView3D](https://kurojs.github.io/McView3D/?skin=herobrine)
+
+## Usages📌
+In this URL, the `skin` parameter at the end specifies the name of the skin you want to view. In the example above, the skin is **herobrine**.
+
+To view a different skin, simply change the value of the `skin` parameter in the URL. Example:
+
+- To view the **steve** skin:
+  [Steve](https://kurojs.github.io/McView3D/?skin=steve)
 
 ## 📦 Installation  
 1. Clone the repository:  
@@ -32,7 +38,8 @@ https://kurojs.github.io/McView3D/?skin=herobrine
 3. Done! No additional dependencies are required.  
 
 ## Technologies Used  
-- [SkinView3D](https://github.com/bs-community/skinview3d)  
+- [SkinView3D](https://github.com/bs-community/skinview3d)
+- [Minotar](https://minotar.net/)
 - HTML, CSS, JavaScript  
 
 ## License  

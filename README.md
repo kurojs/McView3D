@@ -18,7 +18,7 @@ Try the API directly in your browser:
 [McView3D](https://kurojs.github.io/McView3D/?skin=herobrine)
 
 ## Usages📌
-In this URL, the `skin` parameter at the end specifies the name of the skin you want to view. In the example above, the skin is **herobrine**.
+In this URL, the `skin` parameter at the end specifies the name of the skin you want to view.
 
 To view a different skin, simply change the value of the `skin` parameter in the URL. Example:
 

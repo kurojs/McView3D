@@ -6,6 +6,7 @@
 ## 📌 Introduction  
 **McView3D** is an API that allows you to view Minecraft skins in 3D directly from your browser.  
 It uses [SkinView3D](https://github.com/bs-community/skinview3d) as a base and adapts it into a simple and accessible interface through URL queries.  
+![Demo](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDZwZ2R2cmtieThrNm5tbTZiMnQ0cWdnNHlhNmdwa2xjeDNtZDRlNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RYrKwJGmVsabIT3EOE/giphy.gif)
 
 ## Features 👾
 - **3D view of Minecraft skins**  

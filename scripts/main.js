@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         width: `${width}`,
         height:`${height}`,
         skin: `https://minotar.net/skin/${skinName}`,
-        cape: `/src/capes/${cape}` 
+        cape: `https://kurojs.github.io/McView3D/src/capes/${cape}` 
     });
 
     skinViewer.fov = 70;

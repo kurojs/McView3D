@@ -16,7 +16,7 @@ It uses [SkinView3D](https://github.com/bs-community/skinview3d) as a base and a
 
 ## Live Demo   
 Try the API directly in your browser:  
-[McView3D](https://kurojs.github.io/McView3D/?skin=herobrine)
+[McView3D](https://kurojs.github.io/McView3D/?skin=unlikekinght&height=400&width=400&cape=2016.png)
 
 ## Usages & parameters 📌
 In this URL, the `skin` parameter at the end specifies the name of the skin you want to view.

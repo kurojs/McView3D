@@ -11,20 +11,31 @@ It uses [SkinView3D](https://github.com/bs-community/skinview3d) as a base and a
 ## Features 👾
 - **3D view of Minecraft skins**  
 - **Dynamic animations**  
-- **Load skins via URL**  
+- **Load skins and capes via URL**  
 - **Lightweight and easy to implement**  
 
 ## Live Demo   
 Try the API directly in your browser:  
 [McView3D](https://kurojs.github.io/McView3D/?skin=herobrine)
 
-## Usages📌
+## Usages & parameters 📌
 In this URL, the `skin` parameter at the end specifies the name of the skin you want to view.
 
 To view a different skin, simply change the value of the `skin` parameter in the URL. Example:
 
 - To view the **steve** skin:
   [Steve](https://kurojs.github.io/McView3D/?skin=steve)
+
+You can customize the canvas size and add capes using the following parameters:
+
+- `height`: Specifies the height of the canvas. Default is `400`.
+- `width`: Specifies the width of the canvas. Default is `400`.
+- `cape`: Specifies the name of the cape to display (Visit the SRC/CAPES folder to display the available layers). 
+
+#### Example:
+To view the **steve** skin with a canvas size of `300x300` and the `2016.png` cape:
+[Steve with Cape](https://kurojs.github.io/McView3D/?skin=steve&height=300&width=300&cape=2016.png)
+
 
 ## 📦 Installation  
 1. Clone the repository:  
@@ -50,5 +61,7 @@ This project uses the MIT license. You can find more details in the [`LICENSE`](
 McView3D is based on the work of [bs-community/skinview3d](https://github.com/bs-community/skinview3d), a 3D skin viewer for Minecraft.  
 
 ---
+## Documentation ✖️
+Documentation are still under construction. Please stay tuned for updates.
 
-👾 *Determination* 👾
+👾 *Determination* 👾 ---

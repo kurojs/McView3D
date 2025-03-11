@@ -1,0 +1,12 @@
+body {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #00000000;
+}
+canvas {
+    border: 1px solid #ffffff00;
+}

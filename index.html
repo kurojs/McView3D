@@ -5,54 +5,12 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>McSkinViewer3d</title>
-    <style>
-        body {
-            font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 70vh;
-            background-color: #00000000;
-        }
-        canvas {
-            border: 1px solid #ffffff00;
-        }
-    </style>
 </head>
 <body>
-    <canvas id="simpleCanvas" width="500" height="500"></canvas>
+    <canvas id="simpleCanvas"></canvas>
     <script src="bundles/skinview3d.bundle.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const urlParams = new URLSearchParams(window.location.search);
-            const skinName = urlParams.get('skin') || 'kuromy888'; // Default skin
-
-
-            const skinViewer = new skinview3d.SkinViewer({
-                canvas: document.getElementById("simpleCanvas"),
-                width: 500,
-                height: 500,
-                skin: `https://minotar.net/skin/${skinName}`
-            });
-
-            skinViewer.fov = 70;
-            skinViewer.zoom = 0.90;
-            skinViewer.globalLight.intensity = 3;
-            skinViewer.cameraLight.intensity = 0.60;
-            skinViewer.autoRotate = false;
-            skinViewer.autoRotateSpeed = 0.5;
-
-            skinViewer.animation = new skinview3d.WalkingAnimation();
-            skinViewer.animation.speed = 0.5;
-
-            skinViewer.controls.enableRotate = true;
-            skinViewer.controls.enableZoom = false;
-            skinViewer.controls.enablePan = true;
-
-            // skinViewer.loadCape("2016.png");
-        });
-    </script>
+    <script src="scripts/main.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
 </body>
 </html>
 

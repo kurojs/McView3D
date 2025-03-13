@@ -28,13 +28,19 @@ To view a different skin, simply change the value of the `skin` parameter in the
 
 You can customize the canvas size and add capes using the following parameters:
 
+- `skin`: Specifies the Minecraft skin to display. If not provided, the default skin is `kuromy888`.
 - `height`: Specifies the height of the canvas. Default is `400`.
 - `width`: Specifies the width of the canvas. Default is `400`.
-- `cape`: Specifies the name of the cape to display (Visit the SRC/CAPES folder to display the available layers). 
+- `cape`: Specifies the name of the cape to display. If the value is set to `default`, the system will fetch the player's **Minecraft official cape** (the one configured in the official Minecraft launcher). If no cape is provided or if the cape name is not found, no cape will be displayed. 
+  - You can visit the `SRC/CAPES` folder to see available custom capes, or provide a specific URL for a custom cape.
 
 #### Example:
 To view the **steve** skin with a canvas size of `300x300` and the `2016.png` cape:
 [Steve with Cape](https://kurojs.github.io/McView3D/?skin=steve&height=300&width=300&cape=2016.png)
+
+To view a player's skin (e.g., `kuromy888`) and automatically fetch their **official Minecraft cape**:
+[Kuromy888 with Official Minecraft Cape](https://kurojs.github.io/McView3D/?skin=kuromy888&height=400&width=400&cape=default)
+
 
 
 ## 📦 Installation  
@@ -52,6 +58,7 @@ To view the **steve** skin with a canvas size of `300x300` and the `2016.png` ca
 ## Technologies Used  
 - [SkinView3D](https://github.com/bs-community/skinview3d)
 - [Minotar](https://minotar.net/)
+- [Capes API](https://capes.dev/)
 - HTML, CSS, JavaScript  
 
 ## License  

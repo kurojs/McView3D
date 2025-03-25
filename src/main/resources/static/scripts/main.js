@@ -28,11 +28,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     skinViewer.controls.enablePan = true;
 
     if (cape && cape !== "default") {
-        skinViewer.loadCape(`https://kurojs.github.io/McView3D/src/capes/${cape}`);
+        skinViewer.loadCape(`https://mc-view3-d.vercel.app/src/capes/${cape}`);
     } else if (cape && cape === "default") {
         try {
             const response = await fetch(`https://api.capes.dev/load/${skinName}`);
-            if (!response.ok) throw new Error("Error obteniendo la capa de capes.dev");
+            if (!response.ok) throw new Error("Error obtaining the capes.dev cape");
 
             const data = await response.json();
             const capeUrl = data.minecraft?.imageUrl;
@@ -40,10 +40,10 @@ document.addEventListener("DOMContentLoaded", async () => {
             if (capeUrl) {
                 skinViewer.loadCape(capeUrl);
             } else {
-                console.warn("El jugador no tiene capa disponible en capes.dev");
+                console.warn("The player has no cape available at capes.dev");
             }
         } catch (error) {
-            console.error("Error al cargar la capa:", error);
+            console.error("Error loading the cape:", error);
         }
     }
 });

@@ -1,14 +1,12 @@
 package com.mcview.mcView.controllers;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RequestMapping("/")
-@RestController
+@Controller
 public class ViewController {
     @GetMapping("/documentation")
     public String documentation() {
-        return "Welcome to the documentation page!";
+        return "documentation.html";
     }
 }

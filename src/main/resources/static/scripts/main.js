@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     skinViewer.controls.enablePan = true;
 
     if (cape && cape !== "default") {
-        skinViewer.loadCape(`https://mc-view3-d.vercel.app/src/capes/${cape}`);
+        skinViewer.loadCape(`https://mcview3d-production.up.railway.app/src/capes/${cape}`);
     } else if (cape && cape === "default") {
         try {
             const response = await fetch(`https://api.capes.dev/load/${skinName}`);

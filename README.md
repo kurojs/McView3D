@@ -14,7 +14,7 @@ It uses [SkinView3D](https://github.com/bs-community/skinview3d) as a base and a
 
 ## Live Demo
 Try the API directly in your browser:  
-[McView3D](https://mc-view3-d.vercel.app/?skin=unlikekinght&height=400&width=400&cape=2016.png)
+[McView3D](https://mcview3d-production.up.railway.app/?skin=unlikekinght&height=400&width=400&cape=2016.png)
 
 ## Usages & parameters 📌
 In this URL, the `skin` parameter at the end specifies the name of the skin you want to view.
@@ -22,7 +22,7 @@ In this URL, the `skin` parameter at the end specifies the name of the skin you 
 To view a different skin, simply change the value of the `skin` parameter in the URL. Example:
 
 - To view the **steve** skin:
-  [Steve](https://mc-view3-d.vercel.app/?skin=steve)
+  [Steve](https://mcview3d-production.up.railway.app/?skin=steve)
 
 You can customize the canvas size and add capes using the following parameters:
 
@@ -34,10 +34,10 @@ You can customize the canvas size and add capes using the following parameters:
 
 #### Example:
 To view the **steve** skin with a canvas size of `300x300` and the `2016.png` cape:
-[Steve with Cape](https://mc-view3-d.vercel.app/?skin=steve&height=300&width=300&cape=2016.png)
+[Steve with Cape](https://mcview3d-production.up.railway.app/?skin=steve&height=300&width=300&cape=2016.png)
 
 To view a player's skin (e.g., `kuromy888`) and automatically fetch their **official Minecraft cape**:
-[Kuromy888 with Official Minecraft Cape](https://mc-view3-d.vercel.app/?skin=kuromy888&height=400&width=400&cape=default)
+[Kuromy888 with Official Minecraft Cape](https://mcview3d-production.up.railway.app/?skin=kuromy888&height=400&width=400&cape=default)
 
 
 
@@ -59,7 +59,7 @@ To view a player's skin (e.g., `kuromy888`) and automatically fetch their **offi
 - [Minotar](https://minotar.net/)
 - [Capes API](https://capes.dev/)
 - [Spring Boot](https://spring.io/projects/spring-boot)
-- [Vercel](https://vercel.com/)
+- [Railway](https://railway.app)
 - HTML, CSS, JavaScript
 
 ## License

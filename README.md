@@ -60,7 +60,7 @@ To view a player's skin (e.g., `kuromy888`) and automatically fetch their **offi
 - [Capes API](https://capes.dev/)
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [Railway](https://railway.app)
-- HTML, CSS, JavaScript
+- HTML, CSS, JavaScript, Java
 
 ## License
 This project uses the MIT license. You can find more details in the [`LICENSE`](LICENSE) file.

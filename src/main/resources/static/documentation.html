@@ -2,10 +2,163 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCView3D Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            overflow-x: auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
-    <h1 id="documentation">Documentation test</h1>
-
+    <header>
+        <h1>Project Documentation</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#setup">Setup</a></li>
+                <li><a href="#usage">Usage</a></li>
+                <li><a href="#api">API</a></li>
+                <li><a href="#contributing">Contributing</a></li>
+                <li><a href="#license">License</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Welcome to the project documentation. This project is built using Java, JavaScript, Spring Boot, and Maven.</p>
+        </section>
+        <section id="setup">
+            <h2>Setup</h2>
+            <p>Instructions on how to set up the project locally.</p>
+            <pre><code>
+git clone https://github.com/your-repo/project.git
+cd project
+mvn clean install
+            </code></pre>
+        </section>
+        <section id="usage">
+            <h2>Usage</h2>
+            <p>To run the project, use the following command:</p>
+            <pre><code>
+mvn spring-boot:run
+            </code></pre>
+            <p>Open your browser and navigate to <code>http://localhost:8080</code> to see the application in action.</p>
+            <h3>Parameters</h3>
+            <p>The application supports the following URL parameters:</p>
+            <ul>
+                <li><code>skin</code> - The name of the Minecraft skin to display (default: <code>kuromy888</code>).</li>
+                <li><code>height</code> - The height of the canvas (default: <code>400</code>).</li>
+                <li><code>width</code> - The width of the canvas (default: <code>400</code>).</li>
+                <li><code>cape</code> - The URL of the cape to display. If set to <code>default</code>, it will try to load the cape from <code>capes.dev</code>.</li>
+            </ul>
+            <h3>Examples</h3>
+            <p>Example URL to display a custom skin:</p>
+            <pre><code>
+http://localhost:8080?skin=customSkinName
+            </code></pre>
+            <p>Example URL to display a custom skin with specific canvas dimensions:</p>
+            <pre><code>
+http://localhost:8080?skin=customSkinName&height=500&width=500
+            </code></pre>
+            <p>Example URL to display a custom skin with a specific cape:</p>
+            <pre><code>
+http://localhost:8080?skin=customSkinName&cape=customCapeUrl
+            </code></pre>
+        </section>
+        <section id="api">
+            <h2>API</h2>
+            <p>Details about the API endpoints.</p>
+            <ul>
+                <li><code>GET /documentation</code> - Returns the documentation page.</li>
+                <!-- -->
+            </ul>
+        </section>
+        <section id="contributing">
+            <h2>Contributing</h2>
+            <p>Guidelines for contributing to the project.</p>
+            <ul>
+                <li>Fork the repository</li>
+                <li>Create a new branch (<code>git checkout -b feature-branch</code>)</li>
+                <li>Commit your changes (<code>git commit -m 'Add some feature'</code>)</li>
+                <li>Push to the branch (<code>git push origin feature-branch</code>)</li>
+                <li>Open a pull request</li>
+            </ul>
+        </section>
+        <section id="license">
+            <h2>License</h2>
+            <p>This project is licensed under the MIT License.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 MCView3D. All rights reserved.</p>
+    </footer>
 </body>
 </html>
